@@ -1,0 +1,3 @@
+<a style="width: 80px; margin-bottom: 2px; margin-top: 2px" href="{{ route('event', $event->id) }}" class="btn btn-sm btn-primary">Lihat</a>
+<a style="width: 80px; margin-bottom: 2px; margin-top: 2px" href="{{ route('admin.event.edit', $event->id) }}" class="btn btn-sm btn-success">Edit</a>
+<a style="width: 80px; margin-bottom: 2px; margin-top: 2px;" href="{{ route('admin.event.delete', $event->id) }}" class="btn btn-sm btn-danger">Hapus</a>
