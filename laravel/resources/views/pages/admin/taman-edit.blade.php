@@ -31,6 +31,10 @@
         <input type="file" name="foto" class="form-control" placeholder="foto">
         <img style="width: 200px; height: auto; margin-top: 10px;" src="{{ url('uploads/taman/'. $taman->foto) }}">
     </div>
+    <div class="form-item">
+        <label>Virtual Tour Media (opsional)</label>
+        <input type="text" name="vt_media" class="form-control" placeholder="sipin25" value="{{ $taman->vt_media }}">
+    </div>
     <button class="btn btn-primary" type="submit">Ubah</button>
 </form>
 
