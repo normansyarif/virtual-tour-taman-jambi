@@ -30,6 +30,10 @@
         <label>Foto</label>
         <input type="file" name="foto" class="form-control" placeholder="foto" required>
     </div>
+    <div class="form-item">
+        <label>Virtual Tour Media (opsional)</label>
+        <input type="text" name="vt_media" class="form-control" placeholder="sipin25">
+    </div>
     <button class="btn btn-primary" type="submit">Simpan</button>
 </form>
 
