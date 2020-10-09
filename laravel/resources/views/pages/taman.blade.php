@@ -17,8 +17,12 @@
 		{!! $taman->deskripsi_panjang !!}
 	</div>
 	<div style="margin-bottom: 30px">
+    
+		@if($taman->vt_media != null)
 		<iframe style="width: 100%; height: 450px; border: none; border-radius: 10px" src="{{ url('virtual-tour/index.htm?media=' . $taman->vt_media) }}"></iframe>
 		<p style="margin-top: 10px"><a target="__blank" href="{{ url('virtual-tour/index.htm?media=' . $taman->vt_media) }}">Klik untuk melihat virtual tour dalam layar penuh</a></p>
+		@endif
+        
 	</div>
 </div>
 
