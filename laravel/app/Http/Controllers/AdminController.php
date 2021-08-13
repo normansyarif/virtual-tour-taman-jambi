@@ -24,7 +24,7 @@ class AdminController extends Controller
     	return view('pages.admin.taman-add');
     }
 
-    // test
+    // testfdsffjjkkjl
 
     public function tamanDelete($id) {
         $eventCount = Event::where('taman_id', $id)->count();
